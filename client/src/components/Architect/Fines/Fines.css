@@ -1,0 +1,65 @@
+.font-text {
+    font-family: 'Poppins', sans-serif;
+}
+
+.create-button {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #FF914D !important;
+    color: #FFFCF1 !important;
+    width: 100%;
+}
+
+.create-button:hover{
+    background-color: #FF914D !important;
+    color: black !important;
+}
+
+.input-field {
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #FF914D;
+    color: rgb(24, 24, 24) !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-field:hover {
+    color: #FF914D;
+    border: 1px solid #FF914D
+}
+
+input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    padding: 0px 2px;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+}
+
+input::placeholder{
+    color: #FF914D;
+    opacity: 1;
+}
+
+.drag-drop-area {
+    border: 2px dashed #FF914D;
+    background-color: #f9f9f9;
+    color: #555;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    min-height: 200px; /* Altura mínima para el área de arrastrar y soltar */
+    max-width: 435px;
+}
+
+.drag-drop-area:hover {
+    background-color: #f0f0f0;
+}
+
+.drag-drop-area.drag-over {
+    background-color: #e0e0e0;
+}
+
